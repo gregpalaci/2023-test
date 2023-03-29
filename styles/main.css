@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-arrow::before{
+    color : black!important
+}
+
+.carousel-wrapper .slick-prev {
+    left: -35px;
+}
+
+.carousel-wrapper .slick-next {
+    right: -35px;
+}
+
+.indicator {
+    display: none;
+}
